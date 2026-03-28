@@ -1,6 +1,7 @@
 # VSCode 历史搜索
 
 > 简单好用的 VSCode/类 VSCode IDE 历史项目搜索插件
+基于 https://github.com/mohuishou/utools 进行二次开发
 
 这是一个使用 **Vue 3 + Vite + TypeScript** 构建的 ZTools 插件。
 
