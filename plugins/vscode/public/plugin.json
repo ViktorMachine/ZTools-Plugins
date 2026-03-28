@@ -1,0 +1,40 @@
+{
+  "$schema": "node_modules/@ztools-center/ztools-api-types/resource/ztools.schema.json",
+  "name": "vscode",
+  "title": "vsc",
+  "description": "搜索 VSCode/类 VSCode IDE 历史项目并打开",
+  "author": "ViktorMachine",
+  "version": "1.0.0",
+  "main": "index.html",
+  "preload": "preload/services.js",
+  "logo": "logo.png",
+  "development": {
+    "main": "http://localhost:5173"
+  },
+  "features": [
+    {
+      "code": "vsc",
+      "explain": "VSCode 历史项目搜索",
+      "icon": "logo.png",
+      "cmds": ["vsc"]
+    },
+    {
+      "code": "vsc-setting",
+      "explain": "VSCode 配置设置",
+      "icon": "logo.png",
+      "cmds": ["vsc-setting"]
+    },
+    {
+      "code": "vsc-ide",
+      "explain": "IDE 管理列表",
+      "icon": "logo.png",
+      "cmds": ["vsc-ide"]
+    },
+    {
+      "code": "vsc-add-ide",
+      "explain": "新增 IDE",
+      "icon": "logo.png",
+      "cmds": ["vsc-add-ide", "新增 IDE"]
+    }
+  ]
+}
